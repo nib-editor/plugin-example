@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"strings"
 
-	nib "github.com/q0tzly/nib/sdk/go"
-	"github.com/q0tzly/nib/sdk/go/nib/plugin/commands"
-	"github.com/q0tzly/nib/sdk/go/nib/plugin/editor"
-	"github.com/q0tzly/nib/sdk/go/nib/plugin/events"
-	"github.com/q0tzly/nib/sdk/go/nib/plugin/types"
-	"github.com/q0tzly/nib/sdk/go/nib/plugin/ui"
+	nib "github.com/nib-editor/nib/sdk/go"
+	"github.com/nib-editor/nib/sdk/go/nib/plugin/commands"
+	"github.com/nib-editor/nib/sdk/go/nib/plugin/editor"
+	"github.com/nib-editor/nib/sdk/go/nib/plugin/events"
+	"github.com/nib-editor/nib/sdk/go/nib/plugin/types"
+	"github.com/nib-editor/nib/sdk/go/nib/plugin/ui"
 	"go.bytecodealliance.org/cm"
 )
 

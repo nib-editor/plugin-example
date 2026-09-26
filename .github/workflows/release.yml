@@ -1,5 +1,5 @@
 # Builds the plugin and publishes it as a release when a tag like v0.1.0 is
-# pushed, as `nib plugin add q0tzly/nib-plugin-example` expects: one
+# pushed, as `nib plugin add nib-editor/plugin-example` expects: one
 # *.nib.tar.gz with plugin.toml and plugin.wasm at its root.
 name: release
 
@@ -27,7 +27,7 @@ jobs:
       - name: Build
         run: |
           go mod download
-          sdk="$(go list -m -f '{{.Dir}}' github.com/q0tzly/nib/sdk/go)"
+          sdk="$(go list -m -f '{{.Dir}}' github.com/nib-editor/nib/sdk/go)"
           tinygo build -target=wasip2 --wit-package "$sdk/wit" --wit-world plugin -o plugin.wasm .
       - name: Check the tag matches plugin.toml
         run: grep -qx "version = \"${GITHUB_REF_NAME#v}\"" plugin.toml

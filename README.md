@@ -1,11 +1,11 @@
 # nib-plugin-example
 
-An example plugin for [nib](https://github.com/q0tzly/nib), written in Go with its [Go SDK](https://github.com/q0tzly/nib/tree/main/sdk/go). It shows how many words the shown buffer has in the status line, and answers the `wordcount.count` command with the number.
+An example plugin for [nib](https://github.com/nib-editor/nib), written in Go with its [Go SDK](https://github.com/nib-editor/nib/tree/main/sdk/go). It shows how many words the shown buffer has in the status line, and answers the `wordcount.count` command with the number.
 
 ## Install
 
 ```sh
-nib plugin add q0tzly/nib-plugin-example
+nib plugin add nib-editor/plugin-example
 ```
 
 It needs no capabilities. It loads the next time nib starts.
@@ -16,7 +16,7 @@ You need [TinyGo](https://tinygo.org/) 0.42 or later (with Go 1.25 to 1.27), bin
 
 ```sh
 tinygo build -target=wasip2 \
-  --wit-package "$(go list -m -f '{{.Dir}}' github.com/q0tzly/nib/sdk/go)/wit" \
+  --wit-package "$(go list -m -f '{{.Dir}}' github.com/nib-editor/nib/sdk/go)/wit" \
   --wit-world plugin -o plugin.wasm .
 ```
 
