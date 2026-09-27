@@ -1,4 +1,4 @@
 name = "wordcount"
-version = "0.1.0"
-api = "0.4"
+version = "0.1.1"
+api = "0.5"
 events = ["buffer-opened", "buffer-changed"]
