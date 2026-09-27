@@ -20,7 +20,15 @@ tinygo build -target=wasip2 \
   --wit-world plugin -o plugin.wasm .
 ```
 
-Try the build without installing it with `nib --plugin .`.
+With nib 0.9 or later, `nib plugin build` runs the same command.
+
+## Test
+
+```sh
+nib plugin test
+```
+
+runs the tests in [`tests/`](tests) in an editor without a terminal. Try the build without installing it with `nib --plugin .`.
 
 ## Release
 
