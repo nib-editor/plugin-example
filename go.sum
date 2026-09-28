@@ -1,4 +1,4 @@
-github.com/nib-editor/nib/sdk/go v0.5.0 h1:GPGfPFaOWJQwnHmTJNMS9u/+bhdFMFAoMLAn5+8gHws=
-github.com/nib-editor/nib/sdk/go v0.5.0/go.mod h1:ZkaL2unE/sVy4PQgqvDbtjofbdVFWlvShVXrrwYJ7lo=
+github.com/nib-editor/nib/sdk/go v0.5.3 h1:1EgVnIoz8GCBmv9/tJwiL38OPa75TnTBndW+Y3RQZJM=
+github.com/nib-editor/nib/sdk/go v0.5.3/go.mod h1:ZkaL2unE/sVy4PQgqvDbtjofbdVFWlvShVXrrwYJ7lo=
 go.bytecodealliance.org/cm v0.3.0 h1:VhV+4vjZPUGCozCg9+up+FNL3YU6XR+XKghk7kQ0vFc=
 go.bytecodealliance.org/cm v0.3.0/go.mod h1:JD5vtVNZv7sBoQQkvBvAAVKJPhR/bqBH7yYXTItMfZI=
